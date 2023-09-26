@@ -25,6 +25,8 @@
 		61A8FC8E2AC08014001B374D /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8FC8C2AC08014001B374D /* CustomCellTableViewCell.swift */; };
 		61A8FC8F2AC08014001B374D /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61A8FC8D2AC08014001B374D /* CustomCellTableViewCell.xib */; };
 		61A8FC922AC09202001B374D /* UIimage+SetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8FC912AC09202001B374D /* UIimage+SetImage.swift */; };
+		61BB7EC52AC35B4A0056C297 /* CustomTransformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB7EC32AC35B4A0056C297 /* CustomTransformationTableViewCell.swift */; };
+		61BB7EC62AC35B4A0056C297 /* CustomTransformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61BB7EC42AC35B4A0056C297 /* CustomTransformationTableViewCell.xib */; };
 		61E3E4922AC1DDE500437FA9 /* DetailHeroeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E4902AC1DDE500437FA9 /* DetailHeroeViewController.swift */; };
 		61E3E4932AC1DDE500437FA9 /* DetailHeroeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61E3E4912AC1DDE500437FA9 /* DetailHeroeViewController.xib */; };
 		61E3E4972AC1E04B00437FA9 /* TransformationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3E4952AC1E04B00437FA9 /* TransformationsListViewController.swift */; };
@@ -52,6 +54,8 @@
 		61A8FC8C2AC08014001B374D /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		61A8FC8D2AC08014001B374D /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
 		61A8FC912AC09202001B374D /* UIimage+SetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage+SetImage.swift"; sourceTree = "<group>"; };
+		61BB7EC32AC35B4A0056C297 /* CustomTransformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransformationTableViewCell.swift; sourceTree = "<group>"; };
+		61BB7EC42AC35B4A0056C297 /* CustomTransformationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTransformationTableViewCell.xib; sourceTree = "<group>"; };
 		61E3E4902AC1DDE500437FA9 /* DetailHeroeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeroeViewController.swift; sourceTree = "<group>"; };
 		61E3E4912AC1DDE500437FA9 /* DetailHeroeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailHeroeViewController.xib; sourceTree = "<group>"; };
 		61E3E4952AC1E04B00437FA9 /* TransformationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsListViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		6148407A2ABED6870009C08C /* DragonBall_SilviaCasanova */ = {
 			isa = PBXGroup;
 			children = (
+				61BB7EC22AC35B150056C297 /* CustomCellTransformation */,
 				61E3E4942AC1E00900437FA9 /* TransformationsList */,
 				61E3E48B2AC1CE0400437FA9 /* DetailView */,
 				61A8FC8B2AC07FEE001B374D /* CustomCell */,
@@ -143,6 +148,15 @@
 				61A8FC912AC09202001B374D /* UIimage+SetImage.swift */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		61BB7EC22AC35B150056C297 /* CustomCellTransformation */ = {
+			isa = PBXGroup;
+			children = (
+				61BB7EC32AC35B4A0056C297 /* CustomTransformationTableViewCell.swift */,
+				61BB7EC42AC35B4A0056C297 /* CustomTransformationTableViewCell.xib */,
+			);
+			path = CustomCellTransformation;
 			sourceTree = "<group>";
 		};
 		61E3E48B2AC1CE0400437FA9 /* DetailView */ = {
@@ -221,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61BB7EC62AC35B4A0056C297 /* CustomTransformationTableViewCell.xib in Resources */,
 				61A8FC8F2AC08014001B374D /* CustomCellTableViewCell.xib in Resources */,
 				614840932ABED6F10009C08C /* LoginViewController.xib in Resources */,
 				614840882ABED6880009C08C /* LaunchScreen.storyboard in Resources */,
@@ -240,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61509BDD2ABEF45C00CF3651 /* NetworkModel.swift in Sources */,
+				61BB7EC52AC35B4A0056C297 /* CustomTransformationTableViewCell.swift in Sources */,
 				614840922ABED6F10009C08C /* LoginViewController.swift in Sources */,
 				61E3E4922AC1DDE500437FA9 /* DetailHeroeViewController.swift in Sources */,
 				61E3E4972AC1E04B00437FA9 /* TransformationsListViewController.swift in Sources */,
