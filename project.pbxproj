@@ -22,6 +22,12 @@
 		61509BE12ABEF50200CF3651 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61509BE02ABEF50200CF3651 /* Transformation.swift */; };
 		61509BE32ABEF52300CF3651 /* GetTransformationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61509BE22ABEF52300CF3651 /* GetTransformationBody.swift */; };
 		61509BE52ABEF54300CF3651 /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61509BE42ABEF54300CF3651 /* LocalDataModel.swift */; };
+		617D166A2AC4794300BDE5A6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D16682AC4794300BDE5A6 /* CollectionViewController.swift */; };
+		617D166B2AC4794300BDE5A6 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617D16692AC4794300BDE5A6 /* CollectionViewController.xib */; };
+		617D166F2AC47E0F00BDE5A6 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D166D2AC47E0F00BDE5A6 /* CustomCollectionViewCell.swift */; };
+		617D16702AC47E0F00BDE5A6 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617D166E2AC47E0F00BDE5A6 /* CustomCollectionViewCell.xib */; };
+		617D16742AC4A80600BDE5A6 /* DetailTransformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617D16722AC4A80600BDE5A6 /* DetailTransformationViewController.swift */; };
+		617D16752AC4A80600BDE5A6 /* DetailTransformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617D16732AC4A80600BDE5A6 /* DetailTransformationViewController.xib */; };
 		61A8FC8E2AC08014001B374D /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8FC8C2AC08014001B374D /* CustomCellTableViewCell.swift */; };
 		61A8FC8F2AC08014001B374D /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61A8FC8D2AC08014001B374D /* CustomCellTableViewCell.xib */; };
 		61A8FC922AC09202001B374D /* UIimage+SetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8FC912AC09202001B374D /* UIimage+SetImage.swift */; };
@@ -51,6 +57,12 @@
 		61509BE02ABEF50200CF3651 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
 		61509BE22ABEF52300CF3651 /* GetTransformationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransformationBody.swift; sourceTree = "<group>"; };
 		61509BE42ABEF54300CF3651 /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
+		617D16682AC4794300BDE5A6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		617D16692AC4794300BDE5A6 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		617D166D2AC47E0F00BDE5A6 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		617D166E2AC47E0F00BDE5A6 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		617D16722AC4A80600BDE5A6 /* DetailTransformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTransformationViewController.swift; sourceTree = "<group>"; };
+		617D16732AC4A80600BDE5A6 /* DetailTransformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTransformationViewController.xib; sourceTree = "<group>"; };
 		61A8FC8C2AC08014001B374D /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		61A8FC8D2AC08014001B374D /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
 		61A8FC912AC09202001B374D /* UIimage+SetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage+SetImage.swift"; sourceTree = "<group>"; };
@@ -92,6 +104,9 @@
 		6148407A2ABED6870009C08C /* DragonBall_SilviaCasanova */ = {
 			isa = PBXGroup;
 			children = (
+				617D16712AC4A7C500BDE5A6 /* DetailTransformations */,
+				617D166C2AC47DEE00BDE5A6 /* CustomCollectionViewCell */,
+				617D16632AC4773100BDE5A6 /* CollectionviewTransformations */,
 				61BB7EC22AC35B150056C297 /* CustomCellTransformation */,
 				61E3E4942AC1E00900437FA9 /* TransformationsList */,
 				61E3E48B2AC1CE0400437FA9 /* DetailView */,
@@ -138,6 +153,33 @@
 				61509BE42ABEF54300CF3651 /* LocalDataModel.swift */,
 			);
 			path = NetworkModel;
+			sourceTree = "<group>";
+		};
+		617D16632AC4773100BDE5A6 /* CollectionviewTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				617D16682AC4794300BDE5A6 /* CollectionViewController.swift */,
+				617D16692AC4794300BDE5A6 /* CollectionViewController.xib */,
+			);
+			path = CollectionviewTransformations;
+			sourceTree = "<group>";
+		};
+		617D166C2AC47DEE00BDE5A6 /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				617D166D2AC47E0F00BDE5A6 /* CustomCollectionViewCell.swift */,
+				617D166E2AC47E0F00BDE5A6 /* CustomCollectionViewCell.xib */,
+			);
+			path = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		617D16712AC4A7C500BDE5A6 /* DetailTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				617D16722AC4A80600BDE5A6 /* DetailTransformationViewController.swift */,
+				617D16732AC4A80600BDE5A6 /* DetailTransformationViewController.xib */,
+			);
+			path = DetailTransformations;
 			sourceTree = "<group>";
 		};
 		61A8FC8B2AC07FEE001B374D /* CustomCell */ = {
@@ -235,14 +277,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617D16752AC4A80600BDE5A6 /* DetailTransformationViewController.xib in Resources */,
 				61BB7EC62AC35B4A0056C297 /* CustomTransformationTableViewCell.xib in Resources */,
 				61A8FC8F2AC08014001B374D /* CustomCellTableViewCell.xib in Resources */,
 				614840932ABED6F10009C08C /* LoginViewController.xib in Resources */,
 				614840882ABED6880009C08C /* LaunchScreen.storyboard in Resources */,
 				61E3E4982AC1E04B00437FA9 /* TransformationsListViewController.xib in Resources */,
 				614840852ABED6880009C08C /* Assets.xcassets in Resources */,
+				617D166B2AC4794300BDE5A6 /* CollectionViewController.xib in Resources */,
 				614840982ABEECF70009C08C /* ListadoHeroesViewController.xib in Resources */,
 				61E3E4932AC1DDE500437FA9 /* DetailHeroeViewController.xib in Resources */,
+				617D16702AC47E0F00BDE5A6 /* CustomCollectionViewCell.xib in Resources */,
 				614840832ABED6870009C08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				617D16742AC4A80600BDE5A6 /* DetailTransformationViewController.swift in Sources */,
 				61509BDD2ABEF45C00CF3651 /* NetworkModel.swift in Sources */,
 				61BB7EC52AC35B4A0056C297 /* CustomTransformationTableViewCell.swift in Sources */,
 				614840922ABED6F10009C08C /* LoginViewController.swift in Sources */,
 				61E3E4922AC1DDE500437FA9 /* DetailHeroeViewController.swift in Sources */,
+				617D166A2AC4794300BDE5A6 /* CollectionViewController.swift in Sources */,
 				61E3E4972AC1E04B00437FA9 /* TransformationsListViewController.swift in Sources */,
 				614840802ABED6870009C08C /* ViewController.swift in Sources */,
 				61509BE52ABEF54300CF3651 /* LocalDataModel.swift in Sources */,
+				617D166F2AC47E0F00BDE5A6 /* CustomCollectionViewCell.swift in Sources */,
 				61A8FC8E2AC08014001B374D /* CustomCellTableViewCell.swift in Sources */,
 				61509BE32ABEF52300CF3651 /* GetTransformationBody.swift in Sources */,
 				614840972ABEECF70009C08C /* ListadoHeroesViewController.swift in Sources */,
